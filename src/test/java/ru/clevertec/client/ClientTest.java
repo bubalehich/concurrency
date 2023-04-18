@@ -1,16 +1,16 @@
 package ru.clevertec.client;
 
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ClientTest {
+
     @Test
-    void testClient(){
+    void testClient() {
         var dataCount = 10;
         Client client = new Client(10);
-        var accumSize = (1+dataCount) * (dataCount/2);
+        var accumSize = (1 + dataCount) * (dataCount / 2);
 
         client.doSend();
 

@@ -1,6 +1,5 @@
 package ru.clevertec.client;
 
-import lombok.Getter;
 import ru.clevertec.data.Request;
 import ru.clevertec.data.Response;
 import ru.clevertec.exception.ClientException;

@@ -1,6 +1,7 @@
 package ru.clevertec.exception;
 
 public class ClientException extends RuntimeException {
+
     public ClientException() {
     }
 

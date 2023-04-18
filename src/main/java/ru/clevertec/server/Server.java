@@ -11,6 +11,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Server {
+
     private static final int MIN_TIME_SLEEP_IN_MILLIS = 100;
 
     private static final int MAX_TIME_SLEEP_IN_MILLIS = 1000;
